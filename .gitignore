@@ -1,0 +1,9 @@
+# Python / Backend
+/backend/venv/
+__pycache__/
+*.pyc
+
+# Frontend / React
+/frontend/node_modules/
+/frontend/build/
+.env.local
