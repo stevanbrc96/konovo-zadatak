@@ -1,0 +1,95 @@
+/* Stilovi za ProductList.module.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #eaeaea;
+}
+
+.logoutButton {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.logoutButton:hover {
+    background-color: #c82333;
+}
+
+.filterContainer {
+    padding: 1rem 2rem;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.searchInput, .categorySelect {
+    padding: 0.6rem;
+    margin-right: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    min-width: 220px;
+}
+
+.productListGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.productCardLink {
+    text-decoration: none;
+    color: inherit;
+}
+
+.productCard {
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    height: 100%;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.productCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.productImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.cardContent {
+    padding: 1rem;
+}
+
+.cardContent h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.cardContent p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+.price {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 0.75rem;
+    font-size: 1rem !important;
+}
