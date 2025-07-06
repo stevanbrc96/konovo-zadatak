@@ -1,4 +1,3 @@
-/* Stilovi za ProductList.module.css */
 
 .header {
     display: flex;
@@ -13,7 +12,7 @@
 .logoutButton {
     padding: 0.6rem 1.2rem;
     font-size: 0.9rem;
-    background-color: #dc3545;
+    background-color: #354edc;
     color: white;
     border: none;
     border-radius: 5px;
